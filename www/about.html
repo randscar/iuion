@@ -1,0 +1,56 @@
+---
+layout: page
+title: "About"
+description: "一只想出去看看世界的程序猿"
+header-img: "img/about-bg.jpg"
+pid: 124
+---
+
+<div class="zh">
+<h3>基本资料</h3>
+
+现居：北京<br>
+
+性别：男<br>
+
+民族：汉<br>
+
+籍贯：湖北<br>
+
+公司：Egret Technology. (北京白鹭时代信息技术有限公司)<br>
+
+Email ：xsstomy@gmail.com<p>
+
+
+<h3>自我介绍</h3>
+
+
+一只想出去看看世界的程序猿,爱好摄影,旅行<br>
+
+
+
+<br>
+</div>
+
+
+{% if site.useDuoshuo %}
+<!-- 多说评论框 start -->
+    <div class="comment">
+        <div class="ds-thread" data-thread-key="{% if page.pid %}{{page.pid}}{% else %}{{page.id}}{% endif %}" data-title="{{page.title}}" data-url="{{site.url}}/about"></div>
+    </div>
+<!-- 多说评论框 end -->
+
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"xsstomy"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+</script>
+<!-- 多说公共JS代码 end -->
+{% endif %}
