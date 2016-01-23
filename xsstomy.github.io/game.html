@@ -1,0 +1,43 @@
+---
+layout: page
+title: "Game"
+description: "一只想出去看看世界的程序猿"
+header-img: "img/about-bg.jpg"
+pid: 124
+---
+
+<div class="zh">
+<h3>游戏</h3>
+
+<p><a  href="http://xsstomy.com/egretprojects/courses/caibaikuai/">踩白块</a></p>
+<p><a  href="http://xiyou2014.vipsinaapp.com/">西游</a></p>
+<p><a  href="http://xsstomy.com/egretprojects/courses/yilupingan/">一路平安</a></p>
+<p><a  href="http://huadian.me/codeexample/game/2048/">2048</a></p>
+<p><a  href="http://xsstomy.com/egretprojects/courses/loading/">摄像机</a></p>
+<p><a  href="http://xsstomy.com/egretprojects/courses/paoku/">横屏</a></p>
+
+<br>
+</div>
+
+
+{% if site.useDuoshuo %}
+<!-- 多说评论框 start -->
+    <div class="comment">
+        <div class="ds-thread" data-thread-key="{% if page.pid %}{{page.pid}}{% else %}{{page.id}}{% endif %}" data-title="{{page.title}}" data-url="{{site.url}}/about"></div>
+    </div>
+<!-- 多说评论框 end -->
+
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"xsstomy"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+</script>
+<!-- 多说公共JS代码 end -->
+{% endif %}
