@@ -1,6 +1,6 @@
 # Site settings
 title: randscar
-header-img: img/home-bg.jpg
+header-img: /img/home-bg.jpg
 email: randscar@gmail.com
 description: ""
 baseurl: ""
