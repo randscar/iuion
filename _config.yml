@@ -1,17 +1,17 @@
 # Site settings
-title: randscar
-header-img: /img/home-bg.jpg
-email: randscar@gmail.com
+title: xsstomy
+header-img: img/home-bg.jpg
+email: xsstomy@gmail.com
 description: ""
 baseurl: ""
-#url: "iuion.com"
+url: "http://xsstomy"
 
 
 # SNS settings
 RSS: true
 # weibo_username:     xsstomy
-#zhihu_username:     han-mu-71
-github_username:    randscar
+zhihu_username:     han-mu-71
+github_username:    xsstomy
 #twitter_username:  
 #facebook_username:  
 
@@ -48,7 +48,7 @@ useGoogleAnalysis: false     # TODO
 # Sidebar settings
 sidebar: true
 sidebar-featured-tags: true
-sidebar-about-description: "一xxxxx"
+sidebar-about-description: "一只想出去看看世界的程序猿,爱好摄影,旅行"
 sidebar-avatar: /img/avatar-xsstomy.jpg     # use absolute URL.
 
 # Friends
